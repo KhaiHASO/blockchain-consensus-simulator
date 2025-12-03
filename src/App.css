@@ -1,0 +1,8 @@
+.app-shell {
+  @apply min-h-screen flex flex-col text-sm md:text-base;
+}
+
+.app-main {
+  @apply flex-1 flex flex-col;
+}
+
