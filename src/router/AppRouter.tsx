@@ -9,7 +9,7 @@ export function AppRouter() {
     <BrowserRouter>
       <div className="app-main">
         <header className="sticky top-0 z-30 border-b border-slate-800/80 bg-base-300/70 backdrop-blur-xl">
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+          <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 gap-3">
             <div className="flex items-center gap-3 text-sm md:text-base">
               <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-cyan-400 to-purple-500 neon-border-cyan" />
               <div>
@@ -21,11 +21,11 @@ export function AppRouter() {
                 </p>
               </div>
             </div>
-            <nav className="flex gap-2 text-sm md:text-base">
+            <nav className="flex flex-wrap gap-2 text-sm md:text-base justify-end">
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 ${
+                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 whitespace-normal break-words text-center ${
                     isActive ? 'border-cyan-400 text-cyan-300' : 'text-slate-300'
                   }`
                 }
@@ -35,7 +35,7 @@ export function AppRouter() {
               <NavLink
                 to="/pow"
                 className={({ isActive }) =>
-                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 ${
+                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 whitespace-normal break-words text-center ${
                     isActive ? 'border-cyan-400 text-cyan-300' : 'text-slate-300'
                   }`
                 }
@@ -45,7 +45,7 @@ export function AppRouter() {
               <NavLink
                 to="/pos"
                 className={({ isActive }) =>
-                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 ${
+                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 whitespace-normal break-words text-center ${
                     isActive ? 'border-purple-400 text-purple-300' : 'text-slate-300'
                   }`
                 }
@@ -55,7 +55,7 @@ export function AppRouter() {
               <NavLink
                 to="/fork"
                 className={({ isActive }) =>
-                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 ${
+                  `btn btn-ghost btn-xs md:btn-sm rounded-full border border-transparent px-3 md:px-4 whitespace-normal break-words text-center ${
                     isActive ? 'border-pink-400 text-pink-300' : 'text-slate-300'
                   }`
                 }

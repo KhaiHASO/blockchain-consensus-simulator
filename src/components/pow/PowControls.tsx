@@ -34,7 +34,7 @@ export function PowControls({
     <div className="glass-panel flex flex-col gap-3 rounded-3xl border border-slate-700/80 p-4 text-sm md:text-base">
       <div className="flex items-center justify-between">
         <span className="font-semibold text-slate-100">Bảng điều khiển</span>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2 justify-end">
           <button
             type="button"
             onClick={isRunning ? onPause : onStart}
@@ -103,7 +103,7 @@ export function PowControls({
               key={s.key}
               type="button"
               onClick={() => onScenarioChange(s.key)}
-              className="btn btn-xs justify-start rounded-2xl border border-slate-600/70 bg-slate-900/40 text-left text-[12px] text-slate-200 hover:border-cyan-400 hover:bg-cyan-500/10"
+              className="btn btn-xs justify-start rounded-2xl border border-slate-600/70 bg-slate-900/40 text-left text-[12px] leading-snug whitespace-normal break-words text-slate-200 hover:border-cyan-400 hover:bg-cyan-500/10"
             >
               {s.label}
             </button>
@@ -111,7 +111,7 @@ export function PowControls({
           <button
             type="button"
             onClick={() => onScenarioChange(null)}
-            className="btn btn-xs justify-start rounded-2xl border border-slate-700/70 bg-slate-950/40 text-left text-[12px] text-slate-300 hover:border-slate-500 hover:bg-slate-800/60"
+            className="btn btn-xs justify-start rounded-2xl border border-slate-700/70 bg-slate-950/40 text-left text-[12px] leading-snug whitespace-normal break-words text-slate-300 hover:border-slate-500 hover:bg-slate-800/60"
           >
             Xoá kịch bản (để mô phỏng tự nhiên)
           </button>

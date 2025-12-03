@@ -61,9 +61,9 @@ export function PowPage() {
             <span className="badge badge-sm border border-cyan-400/60 bg-cyan-500/10 text-sm text-cyan-200">
               Dữ liệu giả lập, hành vi giống thực tế
             </span>
-            <span className="badge badge-sm border border-purple-400/60 bg-purple-500/10 text-sm text-purple-200">
+            {/* <span className="badge badge-sm border border-purple-400/60 bg-purple-500/10 text-sm text-purple-200">
               Chỉ frontend (chưa có backend)
-            </span>
+            </span> */}
           </div>
         </div>
       </motion.section>
