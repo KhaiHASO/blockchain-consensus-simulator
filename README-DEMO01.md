@@ -1,6 +1,6 @@
-# Task 1 – Proof-of-Work Simulator (Frontend Only)
+# Task 1 – Proof-of-Work Simulator 
 
-Trình mô phỏng **Proof of Work (PoW)** hoàn toàn frontend, với giao diện dashboard trực quan, nhiều thợ đào giả lập, biểu đồ độ khó/thời gian block và hoạt ảnh mining sống động.
+Trình mô phỏng **Proof of Work (PoW)** , với giao diện dashboard trực quan, nhiều thợ đào giả lập, biểu đồ độ khó/thời gian block và hoạt ảnh mining sống động.
 
 ---
 

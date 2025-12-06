@@ -1,6 +1,6 @@
-# Task 2 – Proof-of-Stake (PoS) Simulator (Frontend Only)
+# Task 2 – Proof-of-Stake (PoS) Simulator 
 
-Trình mô phỏng **Proof of Stake (PoS)** hoàn toàn frontend, với validator giả lập, chọn proposer theo stake, epoch/slot, slashing và biểu đồ trực quan.
+Trình mô phỏng **Proof of Stake (PoS)** , với validator giả lập, chọn proposer theo stake, epoch/slot, slashing và biểu đồ trực quan.
 
 ---
 

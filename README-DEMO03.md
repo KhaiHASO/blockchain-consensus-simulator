@@ -1,6 +1,6 @@
-# Task 3 – Fork Resolution Simulator (Frontend Only)
+# Task 3 – Fork Resolution Simulator 
 
-Trình mô phỏng **Fork Resolution** (giải quyết fork & re-org) hoàn toàn frontend: giả lập mạng nhiều node, độ trễ mạng, các nhánh chuỗi cạnh tranh, orphan block và quy tắc Longest Chain.
+Trình mô phỏng **Fork Resolution** (giải quyết fork & re-org) : giả lập mạng nhiều node, độ trễ mạng, các nhánh chuỗi cạnh tranh, orphan block và quy tắc Longest Chain.
 
 ---
 
